@@ -1,0 +1,7 @@
+Please list as many patterns as possible for the persona that can be associated with the contents of [condition].
+
+# condition
+{condition}
+
+# Output format
+["Persona A", "Persona B", "Persona C", ...]

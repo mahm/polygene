@@ -1,0 +1,46 @@
+We will create a specific persona based on job theory. Please create a realistic and concrete persona based on the following [target] and [condition].
+Note that the output should be in JSON format.
+
+# target
+{target}
+
+# condition
+- {condition}
+- Ensure consistency between items and create a realistic persona.
+
+# Output format (JSON)
+(
+  "Name": "", // string - Persona's name
+  "Age": 0, // number - Persona's age
+  "Gender": "", // string - Persona's gender
+  "Residence": "", // string - Persona's residence
+  "Occupation": "", // string - Persona's occupation
+  "Annual Income": 0, // number - Persona's annual income
+  "Hobbies": [], // array of strings - Persona's hobbies
+  "Family Composition": "", // string - Persona's family composition
+  "Favorite Brand": "", // string - Persona's favorite brand
+  "Favorite Magazine": "", // string - Persona's favorite magazine
+  "Weekend Activities": [], // array of strings - Persona's weekend activities
+  "Preferred Media": "", // string - Persona's preferred media type
+  "Frequently Used Websites": [], // array of strings - Persona's frequently used websites
+  "Frequently Used Apps": [], // array of strings - Persona's frequently used apps
+  "Social Media Usage": "", // string - Persona's frequency of social media usage
+  "Information Gathering Behavior": "", // string - Persona's behavior when gathering information
+  "Personality": "", // string - Persona's personality traits
+  "Values": [], // array of strings - Persona's values
+  "Life Perspective": "", // string - Persona's perspective on life
+  "Wish": "", // string - Persona's wish
+  "Worry": "", // string - Persona's worry
+  "Goal": "", // string - Persona's goal
+  "Constraints": [], // array of strings - Persona's constraints
+  "Situation": "", // string - The situation in which the job occurs
+  "Desired Outcome": "", // string - The desired outcome of the job
+  "Undesired Outcome": "", // string - The undesired outcome of the job
+  "Desired Emotion": [], // array of strings - The emotions the persona wants to feel from themselves or others
+  "Undesired Emotion": [], // array of strings - The emotions the persona wants to avoid feeling from themselves or others
+  "Alternative Methods": [], // array of strings - The services the persona currently uses to accomplish the job and whether they are free
+  "Willingness to Pay": false, // boolean - Whether the persona is willing to pay for a solution
+  "Budget": 0 // number - The amount the persona is willing to spend (JPY)
+)
+
+LANG: {lang}
