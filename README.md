@@ -1,8 +1,6 @@
 # Polygene - Persona Generator
 
-This Python script generates fictional personas based on specified conditions using the Polygene generator library. You
-can generate a specified number of personas, and the output will be saved in a JSON file. Additionally, you can list the
-personas from an existing JSON file in a tabular format.
+The Polygene Python library is designed to create fictional personas based on user-defined criteria. It allows users to generate a specific number of personas, which are then saved in a JSON file for easy access and storage. Furthermore, the library also supports displaying personas in a clear and organized tabular format, extracted from an existing JSON file containing the persona list.
 
 ## Usage
 
